@@ -1,0 +1,33 @@
+{
+  "name": "eleventy-plugin-jamcomments",
+  "version": "1.0.0",
+  "description": "Fetch comments for your website from JamComments",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teekay/eleventy-plugin-jamcomments.git"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "comments",
+    "commenting"
+  ],
+  "author": "Tomas Kohl <tomas@tomaskohl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teekay/eleventy-plugin-jamcomments/issues"
+  },
+  "homepage": "https://github.com/teekay/eleventy-plugin-jamcomments#readme",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.1"
+  }
+}
