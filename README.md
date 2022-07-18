@@ -6,7 +6,7 @@ A plugin for integrating the JamComments headless commenting CMS to Eleventy.
 
 Spin up your own instance of the [JamComments API](https://github.com/teekay/JamComments) or sign up for the [hosted version](https://jamcomments.io).
 
-To use this plugin, you will need to store the URL to your JamComments instance (https://example.com/api/comments) and your API key. You will find the latter on your JamComments dashboard. A good way to store these is in an `.env` file.
+To use this plugin, you will need to store the URL to your JamComments instance (https://example.com/api/comments) and your API key. You will find the latter on your JamComments dashboard. A good way to store these is in a `.env` file.
 
 ## Installation
 
@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
 
 ## Usage
 
-The plugin will hook into the `eleventy.before` event and download all your comments before the build starts. It will place them to a local cache (controlled by the `pathToCache` option).
+The plugin will hook into the `eleventy.before` event and download all your comments before the build starts. It will place them in a local cache (controlled by the `pathToCache` option).
 
 The easiest way to use the plugin is to use the exported Nunjucks shortcode `commentsForPage`. It will render all comments for a given page as HTML. It will look like this:
 
