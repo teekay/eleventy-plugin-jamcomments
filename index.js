@@ -1,4 +1,4 @@
-const { loadComments, commentsForPage, commentsRendered } = require('./lib/jamcomments-api');
+const { loadComments, commentsForPage, commentsRendered } = require('./lib/jcomments-api');
 
 module.exports = function (eleventyConfig, options = {}) {
   const { apiUrl, apiToken, format, dateFormat, pathToCache, useCached, noFollow } = options;
